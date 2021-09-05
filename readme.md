@@ -23,7 +23,7 @@ Move the mouse by 100 pixels on the y axis
 Move the mouse by 50 pixels on the x axis, and set the y position to 30  
 ```mpos.exe -dx 50 -y 30```
 
-Print the current cursor position
+Print the current cursor position  
 ```mpos.exe --get-position```
 
 etc...
