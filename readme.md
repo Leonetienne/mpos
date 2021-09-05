@@ -23,6 +23,9 @@ Move the mouse by 100 pixels on the y axis
 Move the mouse by 50 pixels on the x axis, and set the y position to 30  
 ```mpos.exe -dx 50 -y 30```
 
+Print the current cursor position
+```mpos.exe --get-position```
+
 etc...
 
 You can add `--no-dpi` to disable DPI scaling, which might lead to inaccurate results. For example, with `--no-dpi` the bottom-right cornor of my 4k(=3840x2160) monitor is at (2560x1440) pixels.
