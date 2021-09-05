@@ -32,19 +32,27 @@ You can add `--no-dpi` to disable DPI scaling, which might lead to inaccurate re
 
 ## Documentation:
 ```
-A super simple command line tool to set the mouse position.
+A super simple command line tool to set the mouse position. v1
+
 
 ==== AVAILABLE PARAMETERS ====
 
---x   -x   INT   incompatibilities=[--delta-x]   The x coordinate to set the cursor to. If no information on x is supplied, the current position will be used.
+--x   -x   INT   incompatibilities=[--delta-x]   The x coordinate to set the cursor to. If no information on x is suppli
+ed, the current position will be used.
 
---delta-y   -dy   INT   incompatibilities=[--y]   Move the cursor by --delta-y pixels on the y axis. If no information on y is supplied, the current position will be used.
+--delta-y   -dy   INT   incompatibilities=[--y]   Move the cursor by --delta-y pixels on the y axis. If no information o
+n y is supplied, the current position will be used.
 
---y   -y   INT   incompatibilities=[--delta-y]   The y coordinate to set the cursor to. If no information on y is supplied, the current position will be used.
+--y   -y   INT   incompatibilities=[--delta-y]   The y coordinate to set the cursor to. If no information on y is suppli
+ed, the current position will be used.
 
---delta-x   -dx   INT   incompatibilities=[--x]   Move the cursor by --delta-x pixels on the x axis. If no information on x is supplied, the current position will be used.
+--delta-x   -dx   INT   incompatibilities=[--x]   Move the cursor by --delta-x pixels on the x axis. If no information o
+n x is supplied, the current position will be used.
 
---disable-dpi-scaling   --no-dpi   VOID   Don't make this process DPI aware. This may result in inaccurate cursor positions.
+--disable-dpi-scaling   --no-dpi   VOID   Don't make this process DPI aware. This may result in inaccurate cursor positi
+ons.
+
+--get-position   -gp   VOID   Just print the cursors position and exit.
 
 --version   -v   VOID   Will just print the version and exits.
 ```
